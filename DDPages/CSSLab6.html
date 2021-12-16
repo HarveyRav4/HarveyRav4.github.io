@@ -1,13 +1,111 @@
-<!doctype html>
+
+	
+	
+	
+	
+	<!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
+
+	<title>Page Title</title>
+
+  <h1 style="text-align:center;"> Welcome to Lab 6</h1>
+<h1 style="text-align:center;">CSS Transitions</h1>
+<h1 style="text-align:center;">Hello!</h1>
+
+	<style>
+		/*Write your CSS code here*/
+		div{
+			width: 100px;
+			height: 100px;
+			border: 3px solid black;
+      font-size:100px;
+      text-align:center;
+      background-color:Grey;
+		}
+
+    .Eclass{
+      color:yellow;
+      transition: background-color 3s, color 3s, transform 2s;
+    }
+    .Eclass:hover{
+      background-color:pink;
+      color:blue;
+      transform: rotate(360deg);
+
+    }
+
+    .Nclass{
+      transition: background-color 2s, transform 2s;
+    }
+    .Nclass:hover{
+      background-color:orange;
+      
+      transform:skew(20deg,20deg);
+    }
+
+    .Jclass{
+      transition: background-color 2s, transform 2s;
+    }
+    .Jclass:hover{
+      background-color:blue;
+      transform:translate(200px);
+    }
+
+ .Oclass{
+      transition:  background-color 2s, transform 2s;
+    }
+    .Oclass:hover{
+      background-color:Pink;
+      transform:translate(200px);
+    }
+
+
+     .Yclass{
+      transition:  background-color 2s, transform 2s;
+    }
+    .Yclass:hover{
+      background-color:Purple;
+      transform:translate(200px);
+    }
+
+
+    .!class{
+      transition:  background-color 2s, transform 2s;
+    }
+    .!class:hover{
+      background-color:Blue;
+      transform:translate(200px);
+    }
+
+
+
+
+
+
+	</style>
+
 </head>
 
 <body>
-	<h1 style="text-align:center;">Lab 6</h1>
-	<h1 style="text-align:center;"> CSS Transitions </h1>
-</body>
+	<!--Write your HTML code here -->
+	
+	<p>Hover over each letter to see the transition effect:</p>
+
+	<div class = "Eclass">E</div>
+  <div class = "Nclass">N</div>
+   <div class = "Jclass">J</div>
+	<div class = "Oclass">O</div>
+  <div class = "Yclass">Y</div>
+   <div class = "!class">!</div>
+
+
+
+  </body>
 </html>
+	
+	
+	
+
 
